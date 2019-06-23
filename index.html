@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical-Documentation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <main id="main-doc">
+
+       <nav id="navbar">
+         <header>
+               <h1 class="heading">Java Documentation</h1>
+         </header>
+
+           <a class="nav-link" href="#introduction">Introduction</a>
+           <a  class="nav-link" href="#variables">Variables</a>
+           <a  class="nav-link" href="#Data_types">Data_types</a>
+           <a  class="nav-link" href="#Operators">Operators</a>
+           <a  class="nav-link" href="#Booleans">Booleans</a>
+           <a  class="nav-link" href="#Arrays">Arrays</a>
+           <a  class="nav-link" href="#javascript_and_java">Javascript_and_java</a>
+           <a  class="nav-link" href="#Classes">Classes</a>
+           <a  class="nav-link" href="#Object">Object</a>
+           <a  class="nav-link" href="#Class_Attributes">Class_Attributes</a>
+           <a  class="nav-link" href="#Methods">Methods</a>
+           <a  class="nav-link" href="#Constructors">Constructors</a>
+           <a  class="nav-link" href="#Encapsulation">Encapsulation</a>
+
+       </nav>
+
+
+      <section class="main-section">
+
+        <header id="introduction">
+          <h1>Introduction</h1>
+          </header>
+          <p>Java is a high-level programming language originally developed by Sun Microsystems and released in 1995.
+            Java runs on a variety of platforms, such as Windows, Mac OS, and the various versions of UNIX. </p>
+
+      </section>
+
+      <section class="main-section">
+        <header id="Variables">
+          <h1>Variables</h1>
+          </header>
+          <p>Variables are containers for storing data values.There are different types of variables:
+          string,int,boolean,float,char,double.To create a variable, you must specify the type and assign it a value.Example:</p>
+          <code style="color:#0984e3">String name = "John";</code>
+
+      </section>
+
+      <section class="main-section">
+        <header id="Data_types">
+          <h1>Data_types</h1>
+            </header>
+          <p>Data types are divided into two groups:<br>
+          Primitive data types - includes byte, short, int, long, float, double, boolean and char
+          Non-primitive data types - such as String, Arrays and Classes.</p>
+          <code style="color:#0984e3">int myNum = 5; // Integer (whole number)<br>
+                float myFloatNum = 5.99f;    // Floating point number <br>
+                char myLetter = 'D';         // Character <br>
+                boolean myBool = true;       // Boolean <br>
+                String myText = "Hello";     // String</code>
+
+      </section>
+
+      <section class="main-section">
+         <header id="Operators">
+           <h1>Operators</h1>
+           </header>
+           <p>Operators are used to perform operations on variables and values.
+        The value is called an operand, while the operation (to be performed between the two operands)
+         is defined by an operator:</p>
+           <code style="color:#0984e3">int sum1 = 100 + 50; // 150 (100 + 50) <br>
+                int sum2 = sum1 + 250; // 400 (150 + 250) <br>
+                int sum3 = sum2 + sum2;</code>
+          <p>Java divides the operators into the following groups:<br>
+              <li>Arithmetic operators</li>
+              <li>Assignment operators</li>
+              <li>Comparison operators</li>
+              <li>Logical operators</li>
+              <li>Bitwise operators</li>
+          </p>
+
+      </section>
+
+      <section class="main-section">
+        <header id="Booleans">
+           <h1>Booleans</h1>
+        </header
+        <p>A boolean type is declared with the boolean keyword and can only take the values true or false:</p>
+        <code style="color:#0984e3">boolean isJavaFun = true;<br>
+          boolean isFishTasty = false;<br>
+          System.out.println(isJavaFun); // Outputs true <br>
+          System.out.println(isFishTasty);// Outputs false</code>
+          <p>A Boolean expression is a Java expression that returns a Boolean value: true or false.
+        You can use a comparison operator, such as the greater
+        than (>)operator to find out if an expression (or a variable) is true:</p>
+        <code style="color:#0984e3">int x = 10;<br>
+            int y = 9;<br>
+            System.out.println(x > y); // returns true, because 10 is higher than 9
+            </code>
+
+      </section>
+
+      <section class="main-section">
+        <header id="Arrays">
+          <h1>Arrays</h1>
+          <p>Arrays are used to store multiple values in a single variable,
+            instead of declaring separate variables for each value.
+            To declare an array, define the variable type with square brackets:</p>
+
+            <code style="color:#0984e3">String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};<br>
+            int[] myNum = {10, 20, 30, 40};</code>
+
+        </header>
+
+      </section>
+      <section class="main-section">
+        <header id="javascript_and_java">
+          <h1>javascript_and_java</h1></header>
+          <p>The similarities:
+          <li>use { and } as code block delimiters</li>
+          <li>use ; to end statements</li>
+          <li>have a Math library e.g. Math.pow</li>
+          <li>  have if, do...while (pretty much same syntax)</li>
+          <li>have return statements</li></p>
+
+
+
+      </section>
+
+      <section class="main-section">
+        <header id="Classes">
+          <h1>Classes</h1>
+        </header>
+          <p>A Class is like an object constructor, or a "blueprint" for creating objects.
+            To create a class, use the keyword class:</p>
+            <code style="color:#0984e3">public class MyClass {<br>
+            int x = 5;<br>
+          }</code>
+
+          <header id="Object">
+            <h1>Object</h1>
+          </header>
+
+          <p>In Java, an object is created from a class.
+            We have already created the class named MyClass, so now we can use this to create objects.
+           To create an object of MyClass, specify the class name, followed by the object name, and use the keyword new:</p>
+
+           <code style="color:#0984e3">public class MyClass {<br>
+          int x = 5;<br>
+
+          public static void main(String[] args) {<br>
+            MyClass myObj = new MyClass();<br>
+            System.out.println(myObj.x);<br>
+          }<br>
+            }</code>
+
+            <header id="Class_Attributes">
+              <h1>class Attributes</h1>
+            </header>
+
+            <p>the term "variable" for x in the example (as shown below).
+              It is actually an attribute of the class.
+              Or you could say that class attributes are variables within a class:</p>
+
+              <code style="color:#0984e3">public class MyClass {<br>
+                int x = 5;<br>
+                int y = 3;<br>
+              }</code>
+
+
+              <header id="Methods">
+                <h1>Methods</h1>
+              </header>
+
+              <p>Methods are declared within a class, and that they are used to perform certain actions.Example
+Create a method named myMethod() in MyClass:</p>
+
+              <code style="color:#0984e3">public class MyClass {<br>
+                  static void myMethod() {<br>
+                    System.out.println("Hello World!");<br>
+                  }<br>
+                }</code>
+
+
+       <header id="Constructors">
+         <h1>Constructors</h1>
+       </header>
+
+       <p>A constructor in Java is a special method that is used to initialize objects.
+         The constructor is called when an object of a class is created. It can be used to set initial values for object attributes:
+        Example Create a constructor:</p>
+
+        <code style="color:#0984e3">// Create a MyClass class <br>
+            public class MyClass {<br>
+              int x;  // Create a class attribute <br>
+
+              // Create a class constructor for the MyClass class <br>
+              public MyClass() { <br>
+                x = 5;  // Set the initial value for the class attribute x <br>
+              } <br>
+
+              public static void main(String[] args) { <br>
+                MyClass myObj = new MyClass(); // Create an object of class MyClass (This will call the constructor) <br>
+                System.out.println(myObj.x); // Print the value of x <br>
+              } <br>
+            } <br>
+
+            // Outputs 5</code>
+
+            <header id="Encapsulation">
+              <h1>Encapsulation</h1>
+            </header>
+
+            <p>Encapsulation, is to make sure that "sensitive" data is hidden from users. To achieve this, you must:
+                  declare class variables/attributes as private (only accessible within the same class)
+                  provide public setter and getter methods to access and update the value of a private variable</p>
+
+           <code style="color:#0984e3">public class Person { <br>
+              private String name; // private = restricted access <br>
+
+              // Getter <br>
+              public String getName() { <br>
+                return name; <br>
+              } <br>
+
+              // Setter <br>
+              public void setName(String newName) { <br>
+                this.name = newName; <br>
+              } <br>
+            }</code>
+
+
+
+
+
+      </section>
+
+
+
+    </main>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+    </script>
+
+  </body>
+</html>
